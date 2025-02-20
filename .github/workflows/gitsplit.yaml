@@ -4,16 +4,18 @@ on:
     branches:
       - master
     tags:
-      - '*'
+      - "*"
   release:
     types: [published]
 
 jobs:
   gitsplit:
     runs-on: ubuntu-latest
+
     steps:
       - name: checkout
-        run: git clone https://github.com/acmephp/acmephp /home/runner/work/acmephp/acmephp && cd /home/runner/work/acmephp/acmephp
+        run: git clone https://github.com/acmephp-fork/acmephp /home/runner/work/acmephp/acmephp && cd /home/runner/work/acmephp/acmephp
+
       - name: Split repositories
         uses: docker://jderusse/gitsplit:latest
         with:

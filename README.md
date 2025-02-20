@@ -1,6 +1,18 @@
 Acme PHP
 ========
 
+>[!IMPORTANT]
+> This project is a fork of https://github.com/acmephp/acmephp. The
+> subtree splitting on the original repository does not work anymore. We have
+> contributed as much as we can, but now we are blocked by the maintainers. So
+> we created this fork to re-enable subtree. This allow us to use subtree split
+> in our projets. Except two files (`.github/workflows/gitsplit.yaml`,
+> `.gitsplit.yml`) all others files has been untouched. Don't open issue/PR here
+> for this project, open them on the original repository instead. This repository will
+> be synced from time to time with the original repository.
+
+---
+
 [![Build Status](https://img.shields.io/github/actions/workflow/status/acmephp/acmephp/test-build.yaml?branch=master&style=flat-square)](https://github.com/acmephp/acmephp/actions/workflows/test-build.yaml?query=branch%3Amaster)
 [![Packagist Version](https://img.shields.io/packagist/v/acmephp/acmephp.svg?style=flat-square)](https://packagist.org/packages/acmephp/acmephp)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)

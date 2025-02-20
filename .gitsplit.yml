@@ -2,9 +2,9 @@
 
 splits:
   - prefix: "src/Core"
-    target: "https://${GH_TOKEN}@github.com/acmephp/core.git"
+    target: "https://${GH_TOKEN}@github.com/acmephp-fork/core.git"
   - prefix: "src/Ssl"
-    target: "https://${GH_TOKEN}@github.com/acmephp/ssl.git"
+    target: "https://${GH_TOKEN}@github.com/acmephp-fork/ssl.git"
 
 origins:
   - ^master$
